@@ -33,10 +33,10 @@ for (i = 0; i < data.length; ++i){
     
     element = 
         `
-        <div id="${category}" class ="score-container">
+        <div class ="${category} score-container">
             <div>
                 <img src="${icon}" alt="">
-                <p id="category"> ${category} </p>
+                <p> ${category} </p>
             </div>
             <p class="score"> ${score}&nbsp; <span> / 100 </span></p>
         </div>  

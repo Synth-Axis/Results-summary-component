@@ -125,25 +125,25 @@ h1, .result-board div p:first-child{
 
 }
 
-#Reaction{
+.Reaction{
     background-color: hsla(0, 100%, 67%, 0.08);
     color: hsl(0, 100%, 67%);
     font-weight: 700;
 }
 
-#Memory{
+.Memory{
     background-color: hsla(39, 100%, 56%, 0.08);
     color: hsl(39, 100%, 56%);
     font-weight: 700;
 }
 
-#Verbal{
+.Verbal{
     background-color: hsla(166, 100%, 37%, 0.08);
     color:hsl(166, 100%, 37%);
     font-weight: 700;
 }
 
-#Visual{
+.Visual{
     background-color: hsla(234, 85%, 45%, 0.08);;
     color: hsl(234, 85%, 45%);
     font-weight: 700;
