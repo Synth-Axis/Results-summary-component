@@ -161,7 +161,7 @@ h1, .result-board div p:first-child{
     color: grey;
 }
 
-form{
+.input-button{
     width:100%;
     display:flex;
     align-items: center;
