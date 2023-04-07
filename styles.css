@@ -149,11 +149,11 @@ h1, .result-board div p:first-child{
     font-weight: 700;
 }
 
-#score{
+.score{
     color: hsl(224, 30%, 27%);
 }
 
-#score span{
+.score span{
     color: grey;
 }
 
