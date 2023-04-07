@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+body{
+    margin: 32px auto;
+    background-color: hsl(221, 100%, 96%);
+    max-width: 1440px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.main-container{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    border-radius: 32px;
+}
+
+.result-board{
+    width:100%;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 32px;
+}
+
+.result-board h2 {
+    color:hsl(241, 100%, 89%);
+    margin: 32px 0;
+}
+
+h1, .result-board div p:first-child{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.result-board div p:last-child, .result-board p{
+    color:hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+.overall-result-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 1), hsla(241, 72%, 46%, 0.1));
+}
+
+.overall-result-circle p:first-child{
+    font-size: 64px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+    
+}
+
+.overall-result-circle p:last-child{
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.summary-text{
+    margin: 0 48px 32px 48px;
+}
+
+.summary-board{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary-board h2{
+    align-self: flex-start;
+    margin: 32px 0 0 16px;
+    color: hsla(224, 30%, 27%, 0.9);
+}
+
+.scores{
+    width: 100%;
+    margin: 16px;
+}
+
+
+.score-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: aqua;
+    border-radius: 16px;
+    margin: 1rem;
+}
+
+.score-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.score-container > p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+
+}
+
+#Reaction{
+    background-color: hsla(0, 100%, 67%, 0.08);
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+}
+
+#Memory{
+    background-color: hsla(39, 100%, 56%, 0.08);
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+
+#Verbal{
+    background-color: hsla(166, 100%, 37%, 0.08);
+    color:hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+
+#Visual{
+    background-color: hsla(234, 85%, 45%, 0.08);;
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+}
+
+#score{
+    color: hsl(224, 30%, 27%);
+}
+
+#score span{
+    color: grey;
+}
+
+form{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width:100%;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 32px;
+    font-size: 18px;
+    padding: 16px;
+    color: hsl(0, 0%, 100%);
+    margin: 1rem;
+    cursor: pointer;
+
+}
+
+input:hover{
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 0.9),hsla(241, 72%, 46%, 0.9));
+    
+}
+
+@media only screen and (max-width: 376px) {
+    body{
+        margin: 0 auto;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .result-board{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;   
+
+    }
+
+}
